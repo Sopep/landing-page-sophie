@@ -3,7 +3,14 @@
     "allow": [
       "Bash(python3:*)",
       "Bash(open:*)",
-      "Bash(git -C \"/Users/sophie.pepin/Downloads/Les projets de Sophie/landing-page-sophie\" add .)"
+      "Bash(git -C \"/Users/sophie.pepin/Downloads/Les projets de Sophie/landing-page-sophie\" add .)",
+      "Bash(git -C \"/Users/sophie.pepin/Downloads/Les projets de Sophie/landing-page-sophie\" commit -m \"$\\(cat <<''EOF''\nPremier commit\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C \"/Users/sophie.pepin/Downloads/Les projets de Sophie/landing-page-sophie\" config user.name \"Sophie Pépin\")",
+      "Bash(git -C \"/Users/sophie.pepin/Downloads/Les projets de Sophie/landing-page-sophie\" config user.email \"sophie.pepin@workleap.com\")",
+      "Bash(git -C \"/Users/sophie.pepin/Downloads/Les projets de Sophie/landing-page-sophie\" branch -M main)",
+      "Bash(git -C \"/Users/sophie.pepin/Downloads/Les projets de Sophie/landing-page-sophie\" remote add:*)",
+      "Bash(git -C \"/Users/sophie.pepin/Downloads/Les projets de Sophie/landing-page-sophie\" push -u origin main)",
+      "Bash(gh auth login:*)"
     ]
   }
 }
