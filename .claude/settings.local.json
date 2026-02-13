@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(open:*)",
+      "Bash(git -C \"/Users/sophie.pepin/Downloads/Les projets de Sophie/landing-page-sophie\" add .)"
+    ]
+  }
+}

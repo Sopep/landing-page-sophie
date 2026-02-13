@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sophie Pépin — Senior UX & UI Designer</title>
+  <meta name="description" content="Sophie Pépin, Senior UX & UI Web Designer at Workleap. Specialized in user-centered design, intuitive interfaces and design systems. Based in Montréal.">
+  <meta name="author" content="Sophie Pépin">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sophie Pépin — Senior UX & UI Designer">
+  <meta property="og:description" content="Senior UX & UI Web Designer at Workleap. User-centered design, intuitive interfaces, Montréal.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_CA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sophie Pépin — Senior UX & UI Designer">
+  <meta name="twitter:description" content="Senior UX & UI Web Designer at Workleap. Montréal.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232545ff'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='Inter,sans-serif' font-weight='800' font-size='18' fill='white'>SP</text></svg>">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sophie Pépin",
+    "jobTitle": "Senior UX & UI Web Designer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Workleap"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montréal",
+      "addressRegion": "Québec",
+      "addressCountry": "CA"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/sophiepepin/",
+      "https://www.behance.net/sophiepepin"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__container">
+      <a href="#hero" class="nav__logo" aria-label="Back to top">
+        <span class="nav__logo-mark">SP</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#expertise" class="nav__link">Expertise</a></li>
+        <li><a href="#parcours" class="nav__link">Experience</a></li>
+        <li><a href="#outils" class="nav__link">Tools</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <div class="hero__gradient"></div>
+        <div class="hero__grid-pattern"></div>
+      </div>
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title reveal">
+            Sophie<br>Pépin
+          </h1>
+          <p class="hero__subtitle reveal">
+            Senior UX & UI <span class="hero__typed" id="typedText"></span><span class="hero__cursor">|</span>
+          </p>
+          <p class="hero__description reveal">
+            I craft intuitive and elegant digital experiences that put people first. Currently at <strong>Workleap</strong>, in Montréal.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#parcours" class="btn btn--primary">
+              Explore my journey
+              <svg class="btn__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero__visual reveal">
+          <div class="hero__photo-wrapper">
+            <img
+              src="assets/photo.jpg"
+              alt="Sophie Pépin, Senior UX & UI Web Designer"
+              class="hero__photo"
+              width="360"
+              height="360"
+              loading="eager"
+            >
+            <div class="hero__photo-ring"></div>
+            <div class="hero__photo-ring hero__photo-ring--2"></div>
+          </div>
+          <div class="hero__floating-badge hero__floating-badge--1">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M10 2l2.09 6.26H18l-5 3.64L14.18 18 10 14.27 5.82 18l1.18-6.1-5-3.64h5.91L10 2z" fill="#FFD700"/>
+            </svg>
+            UX Design
+          </div>
+          <div class="hero__floating-badge hero__floating-badge--2">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <rect x="3" y="3" width="14" height="14" rx="3" stroke="#4d6bff" stroke-width="2"/>
+              <path d="M7 10h6M10 7v6" stroke="#4d6bff" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            UI Systems
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <div class="hero__scroll-mouse">
+          <div class="hero__scroll-wheel"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__number">01</span>
+          <span class="section-label__text">About</span>
+          <span class="section-label__line"></span>
+        </div>
+        <div class="about__grid">
+          <div class="about__intro reveal">
+            <h2 class="about__title">A designer passionate about <span class="text-gradient">human experiences</span></h2>
+            <p class="about__text">
+              With over 12 years of experience in design, I combine art direction, user research and interface design to create products that truly matter. My approach is data-driven and human-centered.
+            </p>
+            <p class="about__text">
+              At <strong>Workleap</strong>, I help simplify work for thousands of leaders worldwide by designing intuitive web interfaces for their SaaS product ecosystem.
+            </p>
+          </div>
+          <div class="about__stats reveal">
+            <div class="stat">
+              <span class="stat__number" data-target="12">0</span>
+              <span class="stat__suffix">+</span>
+              <span class="stat__label">Years of experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-target="5">0</span>
+              <span class="stat__suffix"></span>
+              <span class="stat__label">Companies</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-target="20">0</span>
+              <span class="stat__suffix">k+</span>
+              <span class="stat__label">Users impacted</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-target="3">0</span>
+              <span class="stat__suffix"></span>
+              <span class="stat__label">UX Certifications</span>
+            </div>
+          </div>
+        </div>
+        <div class="about__values reveal">
+          <div class="value-card">
+            <div class="value-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"/>
+                <circle cx="16" cy="16" r="5" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="value-card__title">User-Centered</h3>
+            <p class="value-card__text">Every design decision is guided by research and the real needs of users.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <rect x="6" y="6" width="8" height="8" rx="2" stroke="currentColor" stroke-width="2"/>
+                <rect x="18" y="6" width="8" height="8" rx="2" stroke="currentColor" stroke-width="2"/>
+                <rect x="6" y="18" width="8" height="8" rx="2" stroke="currentColor" stroke-width="2"/>
+                <rect x="18" y="18" width="8" height="8" rx="2" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3 class="value-card__title">Systems Thinking</h3>
+            <p class="value-card__text">Thinking in systems to create consistency and scale across products.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M16 6v20M6 16h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10 10l12 12M22 10L10 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+              </svg>
+            </div>
+            <h3 class="value-card__title">Collaborative</h3>
+            <p class="value-card__text">The best design comes from collaboration between designers, developers and stakeholders.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERTISE ============ -->
+    <section class="expertise" id="expertise">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__number">02</span>
+          <span class="section-label__text">Expertise</span>
+          <span class="section-label__line"></span>
+        </div>
+        <h2 class="section-title reveal">What I do <span class="text-gradient">best</span></h2>
+        <div class="expertise__grid">
+          <article class="skill-card reveal" style="--delay: 0">
+            <div class="skill-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <rect x="6" y="6" width="28" height="28" rx="4" stroke="currentColor" stroke-width="2"/>
+                <rect x="12" y="12" width="8" height="6" rx="1" fill="currentColor" opacity="0.3"/>
+                <rect x="12" y="22" width="16" height="2" rx="1" fill="currentColor" opacity="0.5"/>
+                <rect x="12" y="27" width="12" height="2" rx="1" fill="currentColor" opacity="0.3"/>
+              </svg>
+            </div>
+            <h3 class="skill-card__title">UI Design</h3>
+            <p class="skill-card__text">Modern visual interfaces, clear visual hierarchy, refined typography and reusable components for consistent experiences.</p>
+            <div class="skill-card__tags">
+              <span class="tag">Visual Design</span>
+              <span class="tag">Typography</span>
+              <span class="tag">Components</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal" style="--delay: 1">
+            <div class="skill-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <rect x="4" y="8" width="14" height="14" rx="3" stroke="currentColor" stroke-width="2"/>
+                <rect x="22" y="8" width="14" height="14" rx="3" stroke="currentColor" stroke-width="2"/>
+                <rect x="13" y="22" width="14" height="14" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M18 15h4M29 22v-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+              </svg>
+            </div>
+            <h3 class="skill-card__title">Design Systems</h3>
+            <p class="skill-card__text">Building and maintaining scalable design systems with tokens, components and documentation to ensure product consistency.</p>
+            <div class="skill-card__tags">
+              <span class="tag">Tokens</span>
+              <span class="tag">Documentation</span>
+              <span class="tag">Scalability</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal" style="--delay: 2">
+            <div class="skill-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <path d="M20 6l3 9h9l-7 5 3 9-8-6-8 6 3-9-7-5h9l3-9z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="skill-card__title">Art Direction</h3>
+            <p class="skill-card__text">Strategic creative vision, visual identity, brand storytelling and design quality oversight at every stage of the project.</p>
+            <div class="skill-card__tags">
+              <span class="tag">Brand Identity</span>
+              <span class="tag">Creative Strategy</span>
+              <span class="tag">Storytelling</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal" style="--delay: 3">
+            <div class="skill-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <rect x="8" y="6" width="24" height="16" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M14 26v6M26 26v6M10 32h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="15" cy="14" r="2" fill="currentColor" opacity="0.4"/>
+                <path d="M20 12l3 4h-6l3-4z" fill="currentColor" opacity="0.4"/>
+              </svg>
+            </div>
+            <h3 class="skill-card__title">Prototyping</h3>
+            <p class="skill-card__text">Wireframes, interactive mockups and high-fidelity prototypes to validate concepts and effectively communicate the design vision.</p>
+            <div class="skill-card__tags">
+              <span class="tag">Wireframes</span>
+              <span class="tag">Hi-Fi Mockups</span>
+              <span class="tag">Interaction Design</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal" style="--delay: 4">
+            <div class="skill-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <path d="M20 6v4M20 30v4M6 20h4M30 20h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="20" cy="20" r="8" stroke="currentColor" stroke-width="2"/>
+                <path d="M20 16v8l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="skill-card__title">Web Performance</h3>
+            <p class="skill-card__text">Web performance optimization, WCAG accessibility, responsive design and close collaboration with development teams.</p>
+            <div class="skill-card__tags">
+              <span class="tag">Accessibility</span>
+              <span class="tag">Responsive</span>
+              <span class="tag">Core Web Vitals</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PARCOURS ============ -->
+    <section class="parcours" id="parcours">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__number">03</span>
+          <span class="section-label__text">Experience</span>
+          <span class="section-label__line"></span>
+        </div>
+        <h2 class="section-title reveal">My professional <span class="text-gradient">journey</span></h2>
+
+        <div class="timeline">
+          <div class="timeline__line" aria-hidden="true">
+            <div class="timeline__line-fill" id="timelineFill"></div>
+          </div>
+
+          <article class="timeline__item reveal" style="--delay: 0">
+            <div class="timeline__dot" aria-hidden="true">
+              <div class="timeline__dot-pulse"></div>
+            </div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <span class="timeline__date">2022 — Present</span>
+                <span class="timeline__badge timeline__badge--current">Current</span>
+              </div>
+              <h3 class="timeline__title">Senior UX & UI Web Designer</h3>
+              <p class="timeline__company">Workleap <span class="timeline__location">Montréal</span></p>
+              <p class="timeline__description">Designing intuitive web interfaces for a SaaS product ecosystem used by 20,000+ leaders. Data-driven approach to create exceptional employee experiences.</p>
+              <div class="timeline__tags">
+                <span class="tag tag--small">UX/UI Design</span>
+                <span class="tag tag--small">SaaS</span>
+                <span class="tag tag--small">Design Systems</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item reveal" style="--delay: 1">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <span class="timeline__date">2019 — 2022</span>
+              </div>
+              <h3 class="timeline__title">Senior Art Director</h3>
+              <p class="timeline__company">Republik <span class="timeline__location">Montréal</span></p>
+              <p class="timeline__description">Art direction of content and influencer marketing campaigns. End-to-end management of creative project lifecycles and development of innovative visual strategies.</p>
+              <div class="timeline__tags">
+                <span class="tag tag--small">Art Direction</span>
+                <span class="tag tag--small">Content Marketing</span>
+                <span class="tag tag--small">Brand Strategy</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item reveal" style="--delay: 2">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <span class="timeline__date">2017 — 2019</span>
+              </div>
+              <h3 class="timeline__title">Art Director</h3>
+              <p class="timeline__company">Akufen <span class="timeline__location">Montréal</span></p>
+              <p class="timeline__description">Art direction at a renowned Montréal creative studio specializing in web and print design. Crafting memorable visual experiences for a variety of clients.</p>
+              <div class="timeline__tags">
+                <span class="tag tag--small">Creative Direction</span>
+                <span class="tag tag--small">Web & Print</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item reveal" style="--delay: 3">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <span class="timeline__date">2015 — 2017</span>
+              </div>
+              <h3 class="timeline__title">Graphic Designer</h3>
+              <p class="timeline__company">CloudRaker <span class="timeline__location">Montréal</span></p>
+              <p class="timeline__description">Web content optimization and brand visual consistency. Graphic design for performance-driven digital projects.</p>
+              <div class="timeline__tags">
+                <span class="tag tag--small">Graphic Design</span>
+                <span class="tag tag--small">Web Optimization</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline__item reveal" style="--delay: 4">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <span class="timeline__date">Education</span>
+              </div>
+              <h3 class="timeline__title">Education & Certifications</h3>
+              <p class="timeline__company">Montréal</p>
+              <ul class="timeline__list">
+                <li>MicroMaster UX in Business Context — <strong>HEC Montréal</strong></li>
+                <li>Design Thinking & UX — <strong>Collège de Maisonneuve</strong></li>
+                <li>English Proficiency — <strong>McGill University</strong></li>
+                <li>Bachelor's in Design — <strong>UQAM</strong></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OUTILS ============ -->
+    <section class="outils" id="outils">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__number">04</span>
+          <span class="section-label__text">Tools</span>
+          <span class="section-label__line"></span>
+        </div>
+        <h2 class="section-title reveal">The tools I <span class="text-gradient">work with</span></h2>
+
+        <div class="tools-grid">
+          <div class="tool-category reveal">
+            <h3 class="tool-category__title">Design & Prototyping</h3>
+            <div class="tool-category__items">
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #F24E1E">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 24c2.2 0 4-1.8 4-4v-4H8c-2.2 0-4 1.8-4 4s1.8 4 4 4zm0-16H4c-2.2 0-4 1.8-4 4s1.8 4 4 4h4c2.2 0 4-1.8 4-4s-1.8-4-4-4zM8 0C5.8 0 4 1.8 4 4s1.8 4 4 4h4V4c0-2.2-1.8-4-4-4zm8 0h-4v8h4c2.2 0 4-1.8 4-4s-1.8-4-4-4zm0 8c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z"/></svg>
+                </div>
+                <span class="tool-item__name">Figma</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #F7B500">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5L1.5 7.5v9L12 22.5l10.5-6v-9L12 1.5zm0 2.31l7.5 4.35v.84L12 13.35 4.5 9V8.16L12 3.81z"/></svg>
+                </div>
+                <span class="tool-item__name">Sketch</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #FF61F6">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                </div>
+                <span class="tool-item__name">Adobe XD</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #0ACF83">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 3h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2zm7 14l5-8H7l5 8z"/></svg>
+                </div>
+                <span class="tool-item__name">Framer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool-category reveal">
+            <h3 class="tool-category__title">Adobe Creative Suite</h3>
+            <div class="tool-category__items">
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #31A8FF">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.75 2H4.25C3.01 2 2 3.01 2 4.25v15.5C2 20.99 3.01 22 4.25 22h15.5c1.24 0 2.25-1.01 2.25-2.25V4.25C22 3.01 20.99 2 19.75 2zM13.5 17h-2l-1-3H7.5l-1 3h-2l4-12h1l4 12zm4.5-1h-2V8h2v8z"/></svg>
+                </div>
+                <span class="tool-item__name">Photoshop</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #FF9A00">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.75 2H4.25C3.01 2 2 3.01 2 4.25v15.5C2 20.99 3.01 22 4.25 22h15.5c1.24 0 2.25-1.01 2.25-2.25V4.25C22 3.01 20.99 2 19.75 2zM9.5 17H7V7h2.5c2.5 0 4 1.5 4 5s-1.5 5-4 5zm8-3h-4v3h-2V7h6v2h-4v3h4v2z"/></svg>
+                </div>
+                <span class="tool-item__name">Illustrator</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #9999FF">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.75 2H4.25C3.01 2 2 3.01 2 4.25v15.5C2 20.99 3.01 22 4.25 22h15.5c1.24 0 2.25-1.01 2.25-2.25V4.25C22 3.01 20.99 2 19.75 2zM15 17h-2l-1.5-5L10 17H8l-2-10h2l1.5 6L11 8h2l1.5 5L16 7h2l-3 10z"/></svg>
+                </div>
+                <span class="tool-item__name">After Effects</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool-category reveal">
+            <h3 class="tool-category__title">Web & Development</h3>
+            <div class="tool-category__items">
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #E44D26">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.136 3.012h15.729l-1.431 16.15L12.011 21l-6.397-1.838L4.136 3.012zM12 6.2H8.1l.27 3.03H12v2.88H8.64l.29 3.2 3.07.84 3.07-.84.41-4.64H12V9.23h4.02l.14-1.56.09-1.47H12V6.2z"/></svg>
+                </div>
+                <span class="tool-item__name">HTML/CSS</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #4353FF">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2L2 7l1.63 14L12 22l8.37-1L22 7 12 2zm0 3.5L18 9l-6 3.5L6 9l6-3.5z"/></svg>
+                </div>
+                <span class="tool-item__name">Webflow</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #6837F2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2L2 7l1.63 14L12 22l8.37-1L22 7 12 2zm0 3.5L18 9l-6 3.5L6 9l6-3.5z"/><circle cx="12" cy="12" r="3" fill="white" opacity="0.6"/></svg>
+                </div>
+                <span class="tool-item__name">Webflow Optimize</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #1ABCFE">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                </div>
+                <span class="tool-item__name">Storybook</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool-category reveal">
+            <h3 class="tool-category__title">Optimization & Analytics</h3>
+            <div class="tool-category__items">
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #4B48E8">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4 14h-2v-4H7v-2h6V7h2v10z"/></svg>
+                </div>
+                <span class="tool-item__name">VWO</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #FF6B6B">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+                </div>
+                <span class="tool-item__name">Hotjar</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #34A853">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H8V7h4v10zm6 0h-4V7h4v10z"/></svg>
+                </div>
+                <span class="tool-item__name">Analytics</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool-category reveal">
+            <h3 class="tool-category__title">Collaboration</h3>
+            <div class="tool-category__items">
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #7B68EE">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 3a3 3 0 110 6 3 3 0 010-6zm0 14.2a7.2 7.2 0 01-6-3.22c.03-1.99 4-3.08 6-3.08 2 0 5.97 1.09 6 3.08a7.2 7.2 0 01-6 3.22z"/></svg>
+                </div>
+                <span class="tool-item__name">Notion</span>
+              </div>
+              <div class="tool-item">
+                <div class="tool-item__icon" style="--tool-color: #00B0FF">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 4v16h20V4H2zm18 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </div>
+                <span class="tool-item__name">Jira</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-label reveal">
+          <span class="section-label__number">05</span>
+          <span class="section-label__text">Get in Touch</span>
+          <span class="section-label__line"></span>
+        </div>
+        <div class="contact__content reveal">
+          <h2 class="contact__title">Let's work <span class="text-gradient">together</span></h2>
+          <p class="contact__text">
+            Have a project in mind or just want to chat about design? Feel free to reach out. I'm always open to new collaborations and opportunities.
+          </p>
+          <div class="contact__links">
+            <a href="https://www.linkedin.com/in/sophiepepin/" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <div class="contact-link__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </div>
+              <div class="contact-link__info">
+                <span class="contact-link__label">LinkedIn</span>
+                <span class="contact-link__value">Sophie Pépin</span>
+              </div>
+              <svg class="contact-link__arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="https://www.behance.net/sophiepepin" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <div class="contact-link__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988H0V5.021h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zM3 11h3.584c2.508 0 2.906-3-.312-3H3v3zm3.391 3H3v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/></svg>
+              </div>
+              <div class="contact-link__info">
+                <span class="contact-link__label">Behance</span>
+                <span class="contact-link__value">Creative portfolio</span>
+              </div>
+              <svg class="contact-link__arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__left">
+          <span class="footer__logo">SP</span>
+          <p class="footer__text">Crafted with care in Montréal</p>
+        </div>
+        <p class="footer__copyright">&copy; 2026 Sophie Pépin. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom cursor (desktop only) -->
+  <div class="cursor" id="cursor" aria-hidden="true">
+    <div class="cursor__dot"></div>
+    <div class="cursor__ring"></div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
